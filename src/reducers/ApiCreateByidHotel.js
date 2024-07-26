@@ -1,7 +1,7 @@
 import {createSlice} from "@reduxjs/toolkit"
 
 export const initialState ={
-    reservation:[],
+    reservation:false,
     Country:[],
 
     loadingCountry:false,
@@ -27,7 +27,6 @@ export const ApiCreateByidHotel = createSlice({
             state.loading = false
             state.error = true
         },
-
         loadingCountry:(state) =>{
             state.loadingCountry=true
             state.erroRcountry= null
