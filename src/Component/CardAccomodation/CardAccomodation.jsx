@@ -30,7 +30,7 @@ const CardAccomodation =({ID,room_image,title,description,Price,cantidad,nights,
             }
           })
         if(roomByID !=0){
-            AddCart({ID,room_image,title,Price,cantidad,nights,person,roomByID,end,start,quantity:1,Price_nigth})
+            AddCart({ID,room_image,title,Price,cantidad:validPromotions,nights,person,roomByID,end,start,quantity:1,Price_nigth})
         }else{
             toast.error("no habitacion disponible")
         }
