@@ -23,6 +23,7 @@ import LoadingOverlay from "../../Component/LoadingCreateReserva/LoadingOverlay"
 import HeaderAccomodation from "../../Component/HeaderAccomodation/HeaderAccomodation";
 import Footer from "../../Component/Footer/Footer";
 import useRoomsPromotions from "../../Actions/useRoomsPromotions";
+import WhatsappButton from "../../Component/WhatsappButton/WhatsappButton";
 const Accommodation = () => {
 
 
@@ -204,7 +205,7 @@ const Accommodation = () => {
             {loadingCart && <LoadingOverlay title={"Cargando..."} />}
             <Header/>
 
-          
+            <WhatsappButton />
             {subtotal >0 &&<Cart    
                             checkbxo={checkbox} 
                             handClickCart={handClickCart} /> } 
