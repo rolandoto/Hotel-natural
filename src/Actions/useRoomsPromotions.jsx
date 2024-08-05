@@ -50,7 +50,6 @@ const useRoomsPromotions =() =>{
         PostRoomsPromotions,
         GetRoomsPromotions
     }
-
 }
 
 export default useRoomsPromotions
