@@ -13,12 +13,12 @@ const TitleWelcome  =() =>{
                 />
                     </div>
                 <div className="md:w-1/2 p-4">
-                    <h2 className="text-3xl font-normal text-green-700 mb-4 font-lora text-[30px] text-center ">¡Donde el arte y la hospitalidad se unen!</h2>
+                    <h2 className="text-3xl font-normal text-green-700 mb-4 font-lora text-[30px] text-center ">Tu refugio económico en el corazón de Medellín</h2>
                 <p className="text-gray-700 text-justify	 mb-4">
-                    Bienvenido a Gallery Hotel, ubicado en el corazón del vibrante centro de Medellín. Inspirado en la rica cultura callejera de la ciudad, nuestro hotel ofrece un espacio único donde podrás conectarte con el arte urbano y disfrutar de una experiencia memorable.
+                Situado en pleno centro de Medellín, el Hotel Natural es un refugio económico y acogedor pensado para quienes desean experimentar la esencia de la ciudad sin renunciar a la tranquilidad. Su jardín central, rodeado de vegetación, es un espacio de paz que invita al descanso en medio del ajetreo urbano. Aquí, cada huésped encuentra un ambiente relajante y accesible, ideal tanto para quienes viajan solos como para familias que buscan un alojamiento cómodo y bien ubicado.
                 </p>
                 <p className="text-gray-700 text-justify	 ">
-                    Nuestras habitaciones están decoradas con obras de artistas locales, creando un ambiente estimulante y acogedor. Además, contamos con una terraza en la azotea con impresionantes vistas de la ciudad, un bar donde podrás disfrutar de cócteles artesanales y un restaurante que sirve cocina local con un toque moderno.
+                    
                 </p>
                 </div>
             </div>)

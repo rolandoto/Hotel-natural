@@ -107,13 +107,10 @@ const subtotal = getCartSubtotal()
   ];
   
   const features = [
-      { icon: <IconsFaGlassMartini/>, title: 'Cóctel de bienvenida' },
-      { icon: <IconsGiForkKnifeSpoon/>, title: 'Desayuno incluido' },
       { icon: <IconsFaConciergeBell/>, title: 'Recepción 24 horas' },
       { icon: <IconsaCar/>, title: 'Variedad de transporte', description: 'Metro, tranvía, autobús, taxi' },
       { icon: <IconsRiBankFill/>, title: 'Vida cultural y nocturna', description: 'Bares, museos, restaurantes' },
       { icon: <IconsFaSquareParking/>, title: 'Parqueadero gratis*', description: 'Sujeto a disponibilidad' },
-      { icon: <IconsGiForkKnifeSpoon/>, title: 'Restaurante - Bar  ', description: ' con vista panorámica' },
       { icon: <IconsFaStore/>, title: 'Alianzas comerciales', description: 'Servicio de taxi, gimnasio, tours, médico, comunicaciones.' },
       { icon: <IconsFaBanSmoking/>, title: 'Espacios libre de humo', description: "" },
     ];
@@ -224,17 +221,17 @@ const subtotal = getCartSubtotal()
 
     const rooms = [
       {  title: 'Room Clásica', price:75000 , image:"https://grupo-hoteles.com/storage/app/3/rooms/1104968326-7-rooms-slider-1-clasica_habitacion_hotel_natural_medellin_centro_antioquia_colombia.webp", 
-          features: ['Cama grande', 'Baño privado con ducha', 'Wi-Fi gratuito', 'Smart TV'] },
-      { title: 'Room Grupal Camarote Doble',price:250000, image: "https://grupo-hoteles.com/storage/app/3/rooms/309469919-8-rooms-slider-1-IMG_3679-b.JPG", 
-        features: ['Camarote', 'Baño privado con ducha', 'Wi-Fi gratuito', 'Smart TV','ventilador'] },
+          features: ['Cama doble', 'Baño privado con ducha', 'Wi-Fi gratuito', 'Smart TV'] },
+      { title: 'Room familiar',price:195000, image: "https://grupo-hoteles.com/storage/app/3/rooms/309469919-8-rooms-slider-1-IMG_3679-b.JPG", 
+        features: ['Camarotes', 'Baño privado con ducha', 'Wi-Fi gratuito', 'Smart TV','ventilador'] },
       { title: 'Room Bañera',price:99000, image: "https://grupo-hoteles.com/storage/app/3/rooms/1984005543-9-rooms-slider-1-253037086-7-rooms-slider-2-habitacion%20clasica_natural_hotel_medellin_centro_antioquia_colombia.png", 
-      features: ['Cama para dos personas', 'Baño privado con ducha', 'Wi-Fi gratuito', 'Smart TV','Ventilador'] },
+      features: ['Cama doble', 'Baño privado con ducha', 'Wi-Fi gratuito', 'Smart TV','Ventilador'] },
       { title: 'Room Familiar Camarote',price:150000, image: "https://grupo-hoteles.com/storage/app/3/rooms/888042367-74-rooms-slider-1-habitacion%20triple4.jpg", 
       features: ["Cama familiar", 'Baño privado con ducha', 'Wi-Fi gratuito', 'Smart TV','Ventilador'] },
-      { title: 'Room Twin',price:89000, image: "https://grupo-hoteles.com/storage/app/3/rooms/845929305-75-rooms-slider-1-1771014290-75-rooms-slider-2-WhatsApp%20Image%202023-06-07%20at%201.58.42%20PM%20(1).jpeg", 
-      features: ["Cama dos personas", 'Baño privado con ducha', 'Wi-Fi gratuito', 'Smart TV','Ventilador'] },
-      { title: 'Room Deluxe',price:130000, image: "https://grupo-hoteles.com/storage/app/3/rooms/1477877824-88-rooms-slider-1-WhatsApp%20Image%202023-10-02%20at%209.23.01%20AM%20(2).jpeg", 
-      features: ["Cama dos personas", 'Baño privado con ducha', 'Wi-Fi gratuito', 'Smart TV','Ventilador'] },
+      { title: 'Room Twin',price:100000, image: "https://grupo-hoteles.com/storage/app/3/rooms/845929305-75-rooms-slider-1-1771014290-75-rooms-slider-2-WhatsApp%20Image%202023-06-07%20at%201.58.42%20PM%20(1).jpeg", 
+      features: ["2 Camas  individual", 'Baño privado con ducha', 'Wi-Fi gratuito', 'Smart TV','Ventilador'] },
+      { title: 'Room Deluxe',price:90000, image: "https://grupo-hoteles.com/storage/app/3/rooms/1477877824-88-rooms-slider-1-WhatsApp%20Image%202023-10-02%20at%209.23.01%20AM%20(2).jpeg", 
+      features: ["Cama doble","Cama individual", 'Baño privado con ducha', 'Wi-Fi gratuito', 'Smart TV','Ventilador'] },
     ];
 
     const monthsToShow = window.innerWidth >= 700 ? 2 : 1; // Cambia 768 según tu punto de ruptura deseado
@@ -325,7 +322,7 @@ const subtotal = getCartSubtotal()
                   {loadingHotel ?"cargando " :hotel?.nombre}  
                 </h1>
                 <p className="mt-2 text-base md:text-xl lg:text-3xl font-lora font-normal">
-                    Más que un hotel, una experiencia artística
+                    Tranquilidad y comodidad en el corazón de Medellín 
                 </p>
                 <button className="mt-6 bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-700" onClick={scrollToRoomSection}>
                     Ver habitaciones
